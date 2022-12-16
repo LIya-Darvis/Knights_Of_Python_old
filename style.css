@@ -2,12 +2,33 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: rgb(28, 28, 36);
+    overflow-x:hidden;
+}
+
+#container-1 {
+    height: 768px;
+    display: flexbox;
 }
 
 #top-gradient {
-    height: 50px;
-    width: 50px;
-    background-color: rgb(50, 236, 33);
+    position: absolute;
+    height: 1190px;
+    width: 1550px;
+    left: -140px;
+    top: -380px;
+    border-radius: 100%;
+    background: radial-gradient(circle closest-corner at 30% 30%, rgba(50, 106, 226, 0.788), rgba(0, 0, 0, 0));
+    /* background: radial-gradient( rgb(49, 72, 201), rgba(28, 28, 36, 0)); */
     opacity: 0.8;
 
+}
+
+#bottom-gradient {
+    height: 1190px;
+    width: 1550px;
+    left: -50%;
+    top: 280px;
+    border-radius: 100%;
+    background: radial-gradient(circle closest-corner at 70% 70%, rgba(207, 40, 62, 0.788), rgba(0, 0, 0, 0));
+    opacity: 0.8;
 }
