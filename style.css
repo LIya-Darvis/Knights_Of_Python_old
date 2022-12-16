@@ -7,6 +7,7 @@ body {
 #top-gradient {
     height: 50px;
     width: 50px;
-    background-color: rgba(50, 236, 33, 0.747);
+    background-color: rgb(50, 236, 33);
+    opacity: 0.8;
 
 }
