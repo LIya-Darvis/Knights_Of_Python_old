@@ -3,3 +3,9 @@ body {
     padding: 0px;
 }
 
+#top-gradient {
+    height: 50px;
+    width: 50px;
+    background-color: rgba(50, 236, 33, 0.747);
+
+}
