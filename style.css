@@ -6,12 +6,13 @@ body {
 }
 
 #container-1 {
+    position: absolute;
     height: 768px;
     display: flexbox;
 }
 
 #top-gradient {
-    position: absolute;
+    position: relative;
     height: 1190px;
     width: 1550px;
     left: -140px;
@@ -24,11 +25,20 @@ body {
 }
 
 #bottom-gradient {
-    height: 1190px;
+    position: relative;
+    height: 1090px;
     width: 1550px;
-    left: -50%;
-    top: 280px;
+    right: -20%;
+    bottom: 120%;
     border-radius: 100%;
-    background: radial-gradient(circle closest-corner at 70% 70%, rgba(207, 40, 62, 0.788), rgba(0, 0, 0, 0));
-    opacity: 0.8;
+    background: radial-gradient(ellipse closest-corner at 60% 60%, rgb(221, 44, 67), rgba(0, 0, 0, 0));
+    opacity: 0.6;
+}
+
+#container-2 {
+    position: relative;
+    height: 768px;
+    top: 780px;
+    display: flexbox;
+    background-color: rgba(135, 85, 182, 0.336);
 }
