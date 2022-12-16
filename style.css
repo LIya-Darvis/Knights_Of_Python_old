@@ -8,12 +8,11 @@ body {
 #container-1 {
     position: absolute;
     height: 768px;
-    display: flexbox;
 }
 
 #top-gradient {
     position: relative;
-    height: 1190px;
+    height: 1290px;
     width: 1550px;
     left: -140px;
     top: -380px;
@@ -29,7 +28,7 @@ body {
     height: 1090px;
     width: 1550px;
     right: -20%;
-    bottom: 120%;
+    bottom: 130%;
     border-radius: 100%;
     background: radial-gradient(ellipse closest-corner at 60% 60%, rgb(221, 44, 67), rgba(0, 0, 0, 0));
     opacity: 0.6;
@@ -38,7 +37,7 @@ body {
 #container-2 {
     position: relative;
     height: 768px;
-    top: 780px;
+    top: 768px;
     display: flexbox;
-    background-color: rgba(135, 85, 182, 0.336);
+    background-color: rgba(28, 28, 36);
 }
