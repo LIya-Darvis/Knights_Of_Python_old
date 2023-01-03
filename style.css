@@ -11,29 +11,6 @@ body {
     width: 100%;
 }
 
-#top-gradient {
-    position: relative;
-    height: 1290px;
-    width: 1550px;
-    left: -140px;
-    top: -380px;
-    border-radius: 100%;
-    background: radial-gradient(circle closest-corner at 30% 30%, rgba(50, 106, 226, 0.788), rgba(0, 0, 0, 0));
-    /* background: radial-gradient( rgb(49, 72, 201), rgba(28, 28, 36, 0)); */
-    opacity: 0.8;
-
-}
-
-#bottom-gradient {
-    position: relative;
-    height: 1090px;
-    width: 1550px;
-    right: -20%;
-    bottom: 130%;
-    border-radius: 100%;
-    background: radial-gradient(ellipse closest-corner at 60% 60%, rgb(221, 44, 67), rgba(0, 0, 0, 0));
-    opacity: 0.6;
-}
 
 #container-2 {
     position: relative;
