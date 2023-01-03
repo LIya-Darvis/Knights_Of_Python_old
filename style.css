@@ -11,7 +11,7 @@ html, body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #fff;
     font-size: 20px;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
 
 .wrapper {
@@ -23,9 +23,11 @@ html, body {
 .fullscreen {
     padding: 20px 20px;
     min-height: 100vh;
-    background-color: rgb(70, 68, 88);
+    background-color: rgb(14, 15, 20);
     background-image: url("img/Paral_art.png");
+    background-position: center center;
     background-repeat: no-repeat;
+    /* background-attachment: fixed; */
     background-size: cover;
     object-fit: contain;
     display: flex;
@@ -33,11 +35,13 @@ html, body {
     justify-content: center;
 }
 
+
+
 .fullscreen_body {
     background-color: rgba(47, 47, 59, 0.322);
     flex: 1 1 auto;
     width: 100%;
-    max-width: 1000px;
+    max-width: 700px;
     /* max-height: 70vh; */
     margin: 80px auto;
     text-align: center;
@@ -46,7 +50,8 @@ html, body {
     justify-content: center;
     overflow: hidden;
     border-radius: 15px;
-
+    position: relative;
+    z-index: 1000;
 }
 
 .fullscreen_title {
