@@ -6,8 +6,9 @@ body {
 }
 
 #container-1 {
-    position: absolute;
+    position: relative;
     height: 768px;
+    width: 100%;
 }
 
 #top-gradient {
