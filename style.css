@@ -27,7 +27,8 @@ html, body {
     background-image: url("img/Paral_art.png");
     background-position: center center;
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+    /* fixed переделать позже */
+    background-attachment: fixed; 
     background-size: cover;
     object-fit: contain;
     display: flex;
