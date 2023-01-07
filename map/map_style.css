@@ -215,7 +215,22 @@ body {
     transform: translateY(-50%);
 }
 
-.learning-section {
+/* ======= MAP STYLE ======= */
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+
+
+
+
+/* .learning-section {
     position: relative;
     height: 100%;
     display: flex;
@@ -234,7 +249,7 @@ body {
     justify-content: center;
     padding-left: 140px;
     padding-top: 100px;
-    /* background: red; */
+    /* background: red; 
 }
 
 .learning-section .learning-map .map {
@@ -262,7 +277,7 @@ body {
 
 .learning-section .learning-map .map-content .map .map-row .map-btn {
     background: transparent;
-    /* ==== некий скрипт при нажатии ==== */
+    /* ==== некий скрипт при нажатии ==== 
 }
 
 .learning-section .learning-map .map-content i {
@@ -277,14 +292,7 @@ body {
 .learning-section .learning-map .map-content i:hover {
     opacity: 1;
     transition: all 0.2s ease;
-}
-
-
-
-
-
-
-
+} */
 
 
 @media (max-width: 400px) {
@@ -297,8 +305,6 @@ body {
     .sidebar .close {
         width: 0;
     }
-
-
 
     .home-section {
         left: 78px;
