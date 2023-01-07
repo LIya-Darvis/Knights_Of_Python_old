@@ -6,9 +6,9 @@
 }
 
 html, body {
-    background-color: #191922;
+    background-color: #19192200;
     font-family: 'Exo 2', sans-serif;
-    color: rgb(211, 209, 216);
+    color: rgb(208, 205, 214);
 }
 
 body {
@@ -30,7 +30,7 @@ body {
     left: 0;
     height: 100%;
     width: 78px;
-    background: #363646;
+    background: #31313f;
     z-index: 100;
     transition: all 0.5s ease;
 }
