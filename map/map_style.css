@@ -6,22 +6,13 @@
 }
 
 html, body {
-    background-color: #19192200;
+    /* background-color: #19192200; */
     font-family: 'Exo 2', sans-serif;
     color: rgb(208, 205, 214);
 }
 
 body {
     height: 100vh;
-}
-
-:root {
-    --body-color: #e4e9f7;
-    --sidebar-color: #fff;
-    --primary-color: #695cfe;
-    --primary-color-light: #f6f5ff;
-    --toggle-color: #ddd;
-    --text-color: #707070;
 }
 
 .sidebar {
