@@ -6,7 +6,7 @@
 }
 
 html, body {
-    background-color: rgb(28, 28, 36);
+    background-color: #191922;
     font-family: 'Exo 2', sans-serif;
     color: rgb(211, 209, 216);
 }
@@ -51,6 +51,12 @@ body {
 .sidebar:hover {
     width: 300px;
     z-index: 100;
+}
+
+.sidebar .logo-details a {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
 }
 
 
@@ -211,12 +217,10 @@ body {
 
 .learning-section {
     position: relative;
-    background:#191922;
-    height: 100vh;
+    height: 100%;
     display: flex;
-    align-items: flex-start;
     justify-content: center;
-    width: 100vw;
+    width: 100%;
     transition: all 0.5s ease;
 }
 
@@ -225,20 +229,54 @@ body {
 }
 
 .learning-section .learning-map {
-    height: 60px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 140px;
+    padding-top: 100px;
+    /* background: red; */
+}
+
+.learning-section .learning-map .map {
+    position: relative;
+    background: #404b5a;
+    width: 600px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.learning-section .learning-map .map-content .map .map-row {
+.map .map-row {
+    height: 100%;
+    background: rgb(25, 29, 46);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map .section-card {
     height: 100px;
+    width: 300px;
+    background: #695cfe;
 }
 
-.learning-section .learning-map .map-content .map .map-row .bx-checkbox-square {
+.learning-section .learning-map .map-content .map .map-row .map-btn {
+    background: transparent;
+    /* ==== некий скрипт при нажатии ==== */
+}
+
+.learning-section .learning-map .map-content i {
     color: #fff;
-    font-size: 28px;
-    margin: 10px 55px;
+    font-size: 80px;
+    margin: 20px 20px;
     cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease;
+}
+
+.learning-section .learning-map .map-content i:hover {
+    opacity: 1;
+    transition: all 0.2s ease;
 }
 
 
