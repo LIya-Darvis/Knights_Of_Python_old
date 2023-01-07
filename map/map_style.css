@@ -50,6 +50,7 @@ body {
 
 .sidebar:hover {
     width: 300px;
+    z-index: 100;
 }
 
 
@@ -99,7 +100,7 @@ body {
 }
 
 .sidebar .nav-links li:hover {
-    background: #585661;
+    background: #4e4c58;
 }
 
 .sidebar .nav-links li .icon-link {
@@ -208,33 +209,40 @@ body {
     transform: translateY(-50%);
 }
 
-/* .home-section {
+.learning-section {
     position: relative;
-    background:#992c3b;
+    background:#191922;
     height: 100vh;
-    left: 300px;
-    width: calc(100% - 300px);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100vw;
     transition: all 0.5s ease;
 }
 
-.sidebar .close ~ .home-section {
-    left: 78px;
-    width: calc(100% - 78px);
-    
+.sidebar .close ~ .learning-section {
+    width: 100%;
 }
 
-.home-section .home-content {
+.learning-section .learning-map {
     height: 60px;
     display: flex;
     align-items: center;
 }
 
-.home-section .home-content .bxs-cube{
+.learning-section .learning-map .map-content .map .map-row {
+    height: 100px;
+}
+
+.learning-section .learning-map .map-content .map .map-row .bx-checkbox-square {
     color: #fff;
     font-size: 28px;
     margin: 10px 55px;
     cursor: pointer;
-} */
+}
+
+
+
 
 
 
